@@ -1,0 +1,88 @@
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.loginbox {
+    border-radius: 50px;
+    margin-top: 0;
+    width: 400px;
+    height: 675px;
+    background-color: rgb(251, 160, 122, 0.8);
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding:  20px 30px;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+.formbox {
+    width: 100%;
+}
+.formbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.formbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formbox input[type="text"], .formbox input[type="password"] {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+.formbox input[type="text"]:focus, .formbox input[type="password"]:focus{
+    border-bottom: pink
+}
+.formbox input[type="date"], .formbox input[type="password"]{
+    border: 0;
+    background: #FFE4C4;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.formbox input[type="submit"]{
+    margin-top: 20px;
+    border: 0;
+    outline: 0;
+    background:#F08080;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.formbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #F08080;
+    color: #000
+}
+.formbox a[type="Forgot"]{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+select {
+    border: 0;
+    background: #FFE4C4;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
